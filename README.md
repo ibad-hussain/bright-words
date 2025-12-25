@@ -33,7 +33,7 @@ This project focuses on clean UI design, smooth user interaction, and beginner-f
 ## 🚀 Deployment
 The app is deployed on <b>Vercel</b> and can be accessed via:
 <br>
-https://quickurl-shortener.vercel.app/
+https://bright-words.vercel.app/
 
 <br>
 

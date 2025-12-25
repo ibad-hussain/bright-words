@@ -1,7 +1,6 @@
 # Bright Words - Random Quotes Generator
 ## 🚀 Overview
-Bright Words is a simple and visually appealing web application that generates inspirational quotes across multiple categories. Users can explore pre-listed quotes on the page or generate random quotes by selecting a category through an interactive modal. The app also includes a one-click copy feature, making it easy to save or share quotes instantly.
-This project focuses on clean UI design, smooth user interaction, and beginner-friendly JavaScript logic.
+Bright Words is a simple and visually appealing web application that generates inspirational quotes across multiple categories. Users can explore pre-listed quotes on the page or generate random quotes by selecting a category through an interactive modal. The app also includes a one-click copy feature, making it easy to save or share quotes instantly. This project focuses on clean UI design, smooth user interaction, and beginner-friendly JavaScript logic.
 
 <br>
 

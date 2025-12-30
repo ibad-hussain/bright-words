@@ -2,18 +2,7 @@
 ## 🚀 Overview
 **Ubergency** is a full-stack, real-time emergency ambulance booking platform designed to modernize and streamline emergency medical transportation. Inspired by ride-hailing systems, Ubergency connects users, ambulance drivers, hospitals, and administrators on a single platform, enabling instant and scheduled ambulance bookings, live tracking, hospital bed availability, and real-time communication.
 <br>
-
 This project was developed as **Final Year Project (FYP)** and deployed on **Vercel** using a scalable, production-ready architecture.
-
-<br>
-
-## 🚀 Table of Contents
-1. [Deployment](#-deployment)
-2. [Features](#features)
-3. [Tech Stack](#tech-stack)
-4. [License](#license)
-5. [Contributing](#contributing)
-6. [Contact](#contact)
 
 <br>
 

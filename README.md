@@ -1,13 +1,13 @@
 # Ubergency - Smart Ambulance & Emergency Booking Platform
 ## 🚀 Overview
-**Ubergency** is a full-stack, real-time emergency ambulance booking platform designed to modernize and streamline emergency medical transportation.
-Inspired by ride-hailing systems, Ubergency connects users, ambulance drivers, hospitals, and administrators on a single platform, enabling instant and scheduled ambulance bookings, live tracking, hospital bed availability, and real-time communication.
+**Ubergency** is a full-stack, real-time emergency ambulance booking platform designed to modernize and streamline emergency medical transportation. Inspired by ride-hailing systems, Ubergency connects users, ambulance drivers, hospitals, and administrators on a single platform, enabling instant and scheduled ambulance bookings, live tracking, hospital bed availability, and real-time communication.
 <br>
 
-This project was developed as **Final Year Project (FYP)** and deployed on Vercel using a scalable, production-ready architecture.
+This project was developed as **Final Year Project (FYP)** and deployed on **Vercel** using a scalable, production-ready architecture.
 
-## 📋 Table of Contents
+<br>
 
+## 🚀 Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Tech Stack](#tech-stack)
@@ -15,68 +15,124 @@ This project was developed as **Final Year Project (FYP)** and deployed on Verce
 5. [Contributing](#contributing)
 6. [Contact](#contact)
 
-## ✨ Introduction
+<br>
 
-**Ubergency** is a real-time ambulance booking platform inspired by apps like Uber.
-It connects users, ambulances, and drivers with lightning-fast live tracking powered by **Socket.IO**.
+## 🚀 Core Objectives
+- Reduce emergency response time
+- Provide real-time ambulance tracking
+- Enable hospitals to manage bed availability
+- Support both instant and scheduled ambulance rides
+- Maintain role-based dashboards and access control
 
-The platform includes:
+<br>
 
-- A **Next.js frontend** for users and drivers
-- A **Node.js/Express backend**
-- A fully functional **Admin Dashboard** for managing drivers, ambulances, and bookings
-- Secure authentication using **HTTP-only cookies**
+## 🚀 System Roles
+### 🎯 User
+- Book ambulance instantly or schedule for later
+- Live map tracking of ambulance
+- Ride history & status updates
+- Chat with driver in real time
+- View nearest hospitals and bed availability
+### 🎯 Driver
+- Accept / reject ride requests
+- Live navigation & ride status
+- Ride history and current ride management
+- Real-time chat with user
+### 🎯 Hospital
+- Manage hospital profile
+- Update emergency bed availability
+- View incoming ride requests
+### 🎯 Admin
+- Full system analytics
+- Manage users, drivers, hospitals, and rides
+- Dashboard with charts and statistics
 
-## ⚡ Features
+<br>
 
-👉 **Ambulance Booking System** – Users can request an ambulance instantly
+## 🚀 Key Features
+### 🎯 Emergency Booking
+- Instant ambulance booking based on nearest driver
+- Conflict-free driver assignment
+- Fare calculation based on distance & duration
+### 🎯 Scheduled Rides
+- Pre-book ambulance for future time
+- Conflict detection for overlapping rides
+- Scheduled ride lifecycle handling
+### 🎯 Live Maps & Location
+- OpenStreetMap integration via Leaflet
+- Live pickup & destination markers
+- Distance and ETA calculation utilities
+### 🎯 Real-Time Communication
+- Socket.IO powered chat system
+- Live ride status updates
+- Driver found / waiting / arrived notifications
+### 🎯 Dashboards & Analytics
+- Admin analytics (users, rides, hospitals, drivers)
+- Graphs and statistics using Recharts
+- Role-specific dashboards
+### 🎯 Authentication & Security
+- JWT-based authentication
+- Secure password hashing (bcrypt)
+- Role-based protected routes
+- Request validation using Zod
 
-👉 **Real-time Driver Location** – Live tracking powered by Socket.IO
+<br>
 
-👉 **Role-based interfaces** – User, Driver & Admin dashboards
+## 🚀 Tech Stack
+### 🎯 Frontend
+- Next.js 15
+- React 19
+- Tailwind CSS
+- Shadcn/UI
+- GSAP
+- Leaflet & React-Leaflet
+- Socket.IO Client
+- Recharts
+- Axios
+### 🎯 Backend
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- Socket.IO
+- JWT Authentication
+- Zod Validation
+- MVC Architecture
 
-👉 **Admin Panel** – Manage drivers, ambulances, bookings, documents, and system configuration
+<br>
 
-👉 **Authentication** – Secure login/signup using HTTP-only cookies
+## 🚀 Deployment
+- **Frontend:** Vercel (Next.js)
+- **Backend:** Vercel Serverless
+- **Database:** MongoDB Atlas
 
-👉 **Driver Mode** – Broadcast location when available, but only to the assigned user during a ride
+<br>
 
-👉 **Responsive UI** – Clean, modern design using Tailwind + Shadcn/UI
+## 🚀 Highlights (Why This Project Stands Out)
+- Production-ready full-stack architecture
+- Real-time emergency system
+- Role-based dashboards
+- Map-based ambulance tracking
+- Scalable and modular codebase
+- Clean UI with modern animations
+- Industry-relevant problem domain
 
-👉 **Scalable Architecture** – Can handle large numbers of users and drivers
+<br>
 
-## 🛠 Tech Stack
+## 🚀 Academic Context
+This project was developed as a **Final Year Project (FYP)** for BS Computer Science, focusing on:
+- Web Engineering
+- Distributed Systems
+- Real-Time Applications
+- Software Architecture & Design
 
-### 💻 Frontend
+<br>
 
-- **Next.js (App Router)**
-- **React**
-- **Tailwind CSS**
-- **Shadcn/UI**
-- **Zustand**
-- **Socket.IO Client**
-- **TypeScript**
-
-### ⚙️ Backend
-
-- **Node.js + Express**
-- **MongoDB Atlas**
-- **Mongoose**
-- **JWT + HTTP-only Cookies**
-- **Socket.IO Server**
-
-## 📜 License
-
+## 🚀 License
 This project is licensed under the **MIT License**.
 
-## 🤝 Contributing
+<br>
 
-Contributions are welcome!
-Whether it's bug fixes, new features, or UI improvements — feel free to open a PR!
-
-## 📬 Contact
-
+## 🚀 Contact
 For questions, suggestions, or collaborations:
-
 - LinkedIn: [Ibad Hussain](https://www.linkedin.com/in/ibadhussain/)
 - LinkedIn: [Mubassim Ahmed Khan](https://www.linkedin.com/in/mubassim)

@@ -8,7 +8,7 @@ This project was developed as **Final Year Project (FYP)** and deployed on **Ver
 <br>
 
 ## 🚀 Table of Contents
-1. [Introduction](#introduction)
+1. [Deployment](#-deployment)
 2. [Features](#features)
 3. [Tech Stack](#tech-stack)
 4. [License](#license)

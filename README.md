@@ -1,40 +1,82 @@
-# Bright Words - Random Quotes Generator
+# Ubergency - Smart Ambulance & Emergency Booking Platform
 ## 🚀 Overview
-Bright Words is a simple and visually appealing web application that generates inspirational quotes across multiple categories. Users can explore pre-listed quotes on the page or generate random quotes by selecting a category through an interactive modal. The app also includes a one-click copy feature, making it easy to save or share quotes instantly. This project focuses on clean UI design, smooth user interaction, and beginner-friendly JavaScript logic.
-
+**Ubergency** is a full-stack, real-time emergency ambulance booking platform designed to modernize and streamline emergency medical transportation.
+Inspired by ride-hailing systems, Ubergency connects users, ambulance drivers, hospitals, and administrators on a single platform, enabling instant and scheduled ambulance bookings, live tracking, hospital bed availability, and real-time communication.
 <br>
 
-## 🚀 Screenshots
-![Project screenshot](./Project_screenshots/Image1.png)
-<br><br>
-![Project screenshot](./Project_screenshots/Image2.png)
+This project was developed as **Final Year Project (FYP)** and deployed on Vercel using a scalable, production-ready architecture.
 
-<br>
+## 📋 Table of Contents
 
-## 🚀 Features
-- Random Quote Generation by category
-- Multiple Quote Categories (Motivational, Success, Friendship, etc.)
-- Dynamic Header Quote that changes on every page load
-- One-click Copy to Clipboard functionality
-- Attractive & Responsive UI for desktop and mobile devices
-- Interactive Modal Popup for category-based quote generation
-- Fast & Lightweight (no external libraries or frameworks)
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Tech Stack](#tech-stack)
+4. [License](#license)
+5. [Contributing](#contributing)
+6. [Contact](#contact)
 
-<br>
+## ✨ Introduction
 
-## 🚀 Tech Stack
-- **HTML5** – Structure and semantic layout
-- **CSS3** – Styling, animations, and responsive design
-- **JavaScript** – Dynamic content, random quote logic, and interactivity
+**Ubergency** is a real-time ambulance booking platform inspired by apps like Uber.
+It connects users, ambulances, and drivers with lightning-fast live tracking powered by **Socket.IO**.
 
-<br>
+The platform includes:
 
-## 🚀 Deployment
-The app is deployed on <b>Vercel</b> and can be accessed via:
-<br>
-https://bright-words.vercel.app/
+- A **Next.js frontend** for users and drivers
+- A **Node.js/Express backend**
+- A fully functional **Admin Dashboard** for managing drivers, ambulances, and bookings
+- Secure authentication using **HTTP-only cookies**
 
-<br>
+## ⚡ Features
 
-## 🚀 Contact
-- LinkedIn: www.linkedin.com/in/ibadhussain
+👉 **Ambulance Booking System** – Users can request an ambulance instantly
+
+👉 **Real-time Driver Location** – Live tracking powered by Socket.IO
+
+👉 **Role-based interfaces** – User, Driver & Admin dashboards
+
+👉 **Admin Panel** – Manage drivers, ambulances, bookings, documents, and system configuration
+
+👉 **Authentication** – Secure login/signup using HTTP-only cookies
+
+👉 **Driver Mode** – Broadcast location when available, but only to the assigned user during a ride
+
+👉 **Responsive UI** – Clean, modern design using Tailwind + Shadcn/UI
+
+👉 **Scalable Architecture** – Can handle large numbers of users and drivers
+
+## 🛠 Tech Stack
+
+### 💻 Frontend
+
+- **Next.js (App Router)**
+- **React**
+- **Tailwind CSS**
+- **Shadcn/UI**
+- **Zustand**
+- **Socket.IO Client**
+- **TypeScript**
+
+### ⚙️ Backend
+
+- **Node.js + Express**
+- **MongoDB Atlas**
+- **Mongoose**
+- **JWT + HTTP-only Cookies**
+- **Socket.IO Server**
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Whether it's bug fixes, new features, or UI improvements — feel free to open a PR!
+
+## 📬 Contact
+
+For questions, suggestions, or collaborations:
+
+- LinkedIn: [Ibad Hussain](https://www.linkedin.com/in/ibadhussain/)
+- LinkedIn: [Mubassim Ahmed Khan](https://www.linkedin.com/in/mubassim)
